@@ -12,6 +12,9 @@ namespace Monitor
     {
         private readonly ILogger<Worker> _logger;
 
+        //variavel que recebe valores que só são da classe Sites
+        private readonly Sites _sites;
+
         public Worker(ILogger<Worker> logger)
         {
             _logger = logger;
